@@ -19,7 +19,6 @@ namespace addressbook_tests_autoit
             aux.WinWait(WINTITLE);
             aux.WinActivate(WINTITLE);
             aux.WinWaitActive(WINTITLE);
-          
             
                 groupHelper = new GroupHelper(this);
         }
